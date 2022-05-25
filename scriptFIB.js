@@ -10,7 +10,6 @@ function fib(num) {
     for (let i = 0; i < num; i++) {
         if (i + 1 === num) {
             result += `${first}`;
-            // Без пробела в конце
         } else {
             result += `${first} `;
         }
